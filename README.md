@@ -8,11 +8,14 @@ This project implements a Student Registration System in Python. It provides fun
 
 3. **Lookup Table (Pickle)**: The lookup table approach uses the pickle module to build an index for direct lookup of student data. It offers the fastest retrieval and update operations by storing the index as a serialized Python object.
 
+4. **Student Manager**: The `student_manager.py` file introduces a `Student` class and provides functions to add, modify, and retrieve student data using a pickle file. The `Student` class represents a student object with instance variables for name and course. The system allows registering a student, unregistering a student, and retrieving students by course. The student data is stored in a binary file using the `pickle` module.
+
 ## File Structure
 
 - `naive_solution.py`: Implements the student registration system using a linear search approach.
 - `indexing_solution.py`: Implements the student registration system using an index for improved efficiency.
 - `lookup_table_solution.py`: Implements the student registration system using a lookup table (pickle) for optimal performance.
+- `student_manager.py`: Contains the implementation of the student registration system using a `Student` class and a pickle file.
 - `students.txt`: Sample text file containing student registration information.
 
 ## Usage
