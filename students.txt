@@ -1,0 +1,12 @@
+Student: John Doe
+Course: Mathematics
+Course: Science
+Course: History
+
+Student: Jane Smith
+Course: English
+Course: Mathematics
+
+Student: Alex Johnson
+Course: Science
+Course: Physics
